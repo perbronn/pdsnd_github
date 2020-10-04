@@ -7,12 +7,12 @@ valid_cities = { 'W': ['Washington', 'washington.csv'],'C':['Chicago', 'chicago.
 
 def get_city_filter():
     """
-    Get user input of which city to analyse
+    Get user input of which city to analyse further
 
     Args:
         none
     Returns:
-        city (string) Name of city
+        city (string) Name of the city
     """
     while True: # Would you like to see data for Chicago, New York, or Washington?
         try:
