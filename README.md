@@ -8,7 +8,7 @@ Bikeshare
 
 ## Description
 This project was established to gain insight in bike sharing in three  US cities.  
-Based on raw data (csv) from each city and user input, various statistics are calculated and presented to the delight of the savvy CLI-user
+Based on raw data (csv) from each city and user input, various statistics are calculated and presented to the delight of the savvy CLI-user.
 
 
 ## Installation
@@ -30,3 +30,5 @@ Data input-files
 
 ## Credits
 Could not be made without the insiration and support form  [Udacity](http://www.udacity.com).
+
+Guidance found in [Python Standard Library](http://www.https://docs.python.org/3/library/index.html).
