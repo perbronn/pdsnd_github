@@ -6,7 +6,7 @@
 ### Project Title
 Bikeshare
 
-### Description
+## Description
 This project was established to gain insight in bike sharing in three  US cities.  
 Based on raw data (csv) from each city and user input, various statistics are calculated and presented to the delight of the savvy CLI-user
 
@@ -22,10 +22,11 @@ The files are part of the Nanodegree course: [Programming for Data Science with 
 ### Files used
 Program
 * bikeshare.py
+
 Data input-files
 * chicago.csv
 * washington.csv
 * new_york_city.csv
 
-### Credits
-Click [here](http://www.udacity.com) to visit Udacity.
+## Credits
+Could not be made without the insiration and support form  [Udacity](http://www.udacity.com).
