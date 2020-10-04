@@ -256,22 +256,15 @@ def main():
             df = prepare_data(df, month, day) # TO DO ikke laget enda
             time_stats(df)
             station_stats(df)
-            key = input('\nHit any key to proceed to user statistics\n>>  : ')
+            key = input('\nHit the Enter key to proceed to user statistics\n>>  : ')
             user_stats(df, city)
             print('\n' *2)
             print('-'*20 + ' End of stats ' + '-'*20 )
             quit = str(input('\nType [Q] to quit, or any other key if you would like to analyze a new set of data. \n>>  :')).lower()
             if quit == 'q':
                 break
-        except ValueError:
+        except:
             print('Please enter a legal value')
-        except IndexError:
-            print('Please enter a legal value')
-
-
-
-
-
 
 
 if __name__ == '__main__': # sørger for at main ikke kjøres ved import
