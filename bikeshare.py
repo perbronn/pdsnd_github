@@ -16,7 +16,7 @@ def get_city_filter():
     """
     while True: # Would you like to see data for Chicago, New York, or Washington?
         try:
-            city = input('\nWould you like to see data for {} (C), {} (N) or {} (W) \n>>  City : '
+            city = input('\nWould you like to see data for {} (C), {} (N) or {} (W)? \n>>  City : '
                 .format(valid_cities['C'][0],valid_cities['N'][0], valid_cities['W'][0])).upper()[0]
             if city in valid_cities:
                 print('{} it is!'.format(valid_cities[city][0]))
@@ -45,9 +45,9 @@ def get_time_filter():
 
     while True:
         try:
-            detail = input('\nWould you like to filter the data by month (M), day (D), or not at all (N) \n>>  Filter : ').upper()[0]
+            detail = input('\nWould you like to filter the data by month (M), day (D), or not at all (N)? \n>>  Filter : ').upper()[0]
             if detail == 'M':
-                print('\nPlease type a number to filter by month of the year;')
+                print('\nPlease type a number to filter by month of the year:')
                 month_key = int(input('    {} (1), {} (2), {} (3)\n    {} (4), {} (5), {} (6) \n\n>>  Month : '
                 .format(months[1],months[2],months[3],months[4],months[5],months[6] )))
                 month = months[month_key]
