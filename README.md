@@ -1,15 +1,24 @@
 ### Date created
-Include the date you created this project and README file.
+2020.10.04
 
 ### Project Title
-Replace the Project Title
+Bike Share
 
 ### Description
-Describe what your project is about and what it does
+This project was established to gain insight in bike sharing in some large US cities.  
+Based on raw data (csv) from each city and user input, various statistics are calculated and presented to the delight of the savvy CLI-user
+
+```
+browserify -t can.viewify main.js -o bundle.js
+```
+
+
 
 ### Files used
-Include the files used
+* bikeshare.py
+* chicago.csv
+* washington.csv
+* new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Click [here](http://www.udacity.com) to visit Udacity.
